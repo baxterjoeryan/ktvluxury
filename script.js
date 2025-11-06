@@ -48,7 +48,7 @@ const LANGUAGES = {
 const SAMPLE_ROOMS = [
   { id: "regular-1", price_per_hour: 21.15, image: "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1200&q=60" },
   { id: "regular-2", price_per_hour: 23.0, image: "https://images.unsplash.com/photo-1523906630133-f6934a1ab2b9?auto=format&fit=crop&w=1200&q=60" },
-  { id: "vip-1", price_per_hour: 26.53, image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1200&q=60" },
+  { id: "vip-1", price_per_hour: 26.53, image: "vip.jpg?auto=format&fit=crop&w=1200&q=60" },
   { id: "vip-2", price_per_hour: 29.99, image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=1200&q=60" },
   { id: "vip-3", price_per_hour: 35.75, image: "https://images.unsplash.com/photo-1600607686527-6fb886090705?auto=format&fit=crop&w=1200&q=60" }
 ];
