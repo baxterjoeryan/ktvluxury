@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>KTVLuxury Booking</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1 id="site-title">KTVLuxury</h1>
+      <select id="lang-select" aria-label="Language selector">
+        <option value="en">English</option>
+        <option value="zh">中文</option>
+        <option value="vi">Tiếng Việt</option>
+        <option value="ko">한국어</option>
+      </select>
+    </header>
+
+    <main>
+      <section id="rooms" class="grid"></section>
+    </main>
+
+    <footer class="footer">
+      <h2 id="contact-title">Contact / Booking</h2>
+      <form id="contact-form">
+        <label><span id="lbl-name">Name</span><input id="inp-name" required></label>
+        <label><span id="lbl-phone">Phone</span><input id="inp-phone" required></label>
+        <label><span id="lbl-msg">Message</span><textarea id="inp-msg"></textarea></label>
+        <div class="actions">
+          <button type="submit" id="send-btn">Send</button>
+        </div>
+      </form>
+
+      <div class="contact-info">
+        <p><strong id="lbl-reach">Reach us at:</strong></p>
+        <p>Email: <a id="email-link" href="mailto:baxterjoeryan@gmail.com">baxterjoeryan@gmail.com</a></p>
+        <p>Phone/Zalo: <a id="phone-link" href="tel:0923223088">0923223088</a> • <a id="zalo-link" href="https://zalo.me/0923223088" target="_blank" rel="noopener">Open Zalo</a></p>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
